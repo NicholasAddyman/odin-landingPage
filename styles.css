@@ -68,11 +68,53 @@ ul {
 .button-one {
     display: flex;
     justify-content: center;
-    background-color: rgb(4, 138, 222);
+    background-color: #3882F6;
     color: whitesmoke;
     width: 100%;
     max-width: 90px;
     padding: 6px;
     margin-top: 4px;
     border-radius: 4px;
+}
+
+.random-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    padding: 40px;
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+
+.image1, .image2, .image3, .image4 {
+    height: 120px;
+    width: 120px;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 4px;
+}
+
+.image-text {
+    color: #767575;
+    font-size: 14px;
+    text-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
 }
